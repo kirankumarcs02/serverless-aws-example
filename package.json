@@ -1,0 +1,19 @@
+{
+  "name": "node-aws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "serverless webpack serve -p 8801 --stage local",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.9.0",
+    "bson": "^4.0.2",
+    "serverless-webpack": "^5.3.1",
+    "uuid": "^2.0.3"
+  }
+}
